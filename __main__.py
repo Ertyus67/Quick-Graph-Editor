@@ -137,7 +137,6 @@ def addNode():
     newWindow.title("Add New Node")
     newWindow.geometry("250x100")
 
-
     entry = tkinter.Entry(newWindow)
     entry.pack()
 
@@ -153,7 +152,6 @@ def killNode():
     newWindow = tkinter.Toplevel(master)
     newWindow.title("Kill Node")
     newWindow.geometry("250x100")
-
 
     entry = tkinter.Entry(newWindow)
     entry.pack()
